@@ -206,6 +206,9 @@ struct BoardView: View {
         .buttonStyle(.plain)
         .focusable(true)
         .focused($focusedCell, equals: coordinate)
+        #if os(tvOS)
+        .focusEffectDisabled()
+        #endif
         .frame(width: layout.cellSize, height: layout.cellSize)
         .position(layout.point(for: coordinate))
         .accessibilityLabel(accessibilityLabel(for: coordinate, marble: marble, isDestination: isDestination))
@@ -310,9 +313,14 @@ struct BoardView: View {
 
     private func focusRing(size: CGFloat, isFocused: Bool) -> some View {
         Circle()
-            .stroke(.white.opacity(isFocused ? 0.96 : 0), lineWidth: max(3, size * 0.11))
-            .frame(width: size * 1.72, height: size * 1.72)
-            .shadow(color: .white.opacity(isFocused ? 0.85 : 0), radius: isFocused ? 10 : 0)
+            .stroke(.white.opacity(isFocused ? 0.98 : 0), lineWidth: max(3, size * 0.10))
+            .frame(width: size * 1.66, height: size * 1.66)
+            .overlay {
+                Circle()
+                    .stroke(Color(red: 0.26, green: 0.95, blue: 0.88).opacity(isFocused ? 0.90 : 0), lineWidth: max(1.8, size * 0.045))
+                    .frame(width: size * 1.84, height: size * 1.84)
+            }
+            .shadow(color: .white.opacity(isFocused ? 0.75 : 0), radius: isFocused ? 8 : 0)
             .animation(.easeOut(duration: 0.16), value: isFocused)
             .allowsHitTesting(false)
     }

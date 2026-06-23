@@ -329,6 +329,17 @@ struct ContentView: View {
     private func handleTap(_ coordinate: BoardCoordinate) {
         guard !game.computerShouldMove, game.winner == nil else { return }
 
+        #if os(tvOS)
+        if let selectedMarbleID,
+           game.marble(at: coordinate)?.id == selectedMarbleID,
+           let destination = preferredDestination(from: coordinate, destinations: legalDestinations),
+           game.move(marbleID: selectedMarbleID, to: destination) {
+            focusedCoordinate = destination
+            clearSelection()
+            return
+        }
+        #endif
+
         if let selectedMarbleID,
            legalDestinations.contains(coordinate),
            game.move(marbleID: selectedMarbleID, to: coordinate) {
