@@ -315,13 +315,29 @@ struct BoardView: View {
                 .blur(radius: 0.7)
 
             if isDestination {
-                Circle()
-                    .stroke(.mint.opacity(0.95), lineWidth: max(2, size * 0.06))
-                    .frame(width: size * 1.48, height: size * 1.48)
-                    .shadow(color: .mint.opacity(0.65), radius: 5)
+                legalDestinationRing(size: size)
             }
         }
         .frame(width: size, height: size)
+    }
+
+    private func legalDestinationRing(size: CGFloat) -> some View {
+        ZStack {
+            Circle()
+                .fill(Color(red: 0.18, green: 1.0, blue: 0.80).opacity(0.20))
+                .frame(width: size * 1.42, height: size * 1.42)
+                .blur(radius: 1.4)
+
+            Circle()
+                .stroke(Color(red: 0.18, green: 1.0, blue: 0.82).opacity(0.98), lineWidth: max(3, size * 0.10))
+                .frame(width: size * 1.56, height: size * 1.56)
+
+            Circle()
+                .stroke(.white.opacity(0.88), lineWidth: max(1.2, size * 0.035))
+                .frame(width: size * 1.28, height: size * 1.28)
+        }
+        .shadow(color: Color(red: 0.18, green: 1.0, blue: 0.82).opacity(0.85), radius: 8)
+        .allowsHitTesting(false)
     }
 
     private func focusRing(size: CGFloat, isFocused: Bool) -> some View {
