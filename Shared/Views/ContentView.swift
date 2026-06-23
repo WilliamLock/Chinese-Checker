@@ -371,12 +371,65 @@ struct ContentView: View {
     #if os(tvOS)
     private func handleMoveCommand(_ direction: MoveCommandDirection) {
         guard !game.computerShouldMove, game.winner == nil else { return }
+        if moveSelectedMarble(direction: direction) {
+            return
+        }
+
         let current = focusedCoordinate ?? game.marbles.first(where: { $0.player == game.currentPlayer })?.coordinate
         guard let current else { return }
 
         if let next = nextCoordinate(from: current, direction: direction) {
             focusedCoordinate = next
         }
+    }
+
+    private func moveSelectedMarble(direction: MoveCommandDirection) -> Bool {
+        guard let selectedMarbleID,
+              let marble = game.marbles.first(where: { $0.id == selectedMarbleID }),
+              let destination = destination(from: marble.coordinate, direction: direction) else {
+            return false
+        }
+
+        guard game.move(marbleID: selectedMarbleID, to: destination) else { return false }
+        focusedCoordinate = destination
+        clearSelection()
+        return true
+    }
+
+    private func destination(from coordinate: BoardCoordinate, direction: MoveCommandDirection) -> BoardCoordinate? {
+        let origin = tvPoint(for: coordinate)
+        let candidates = legalDestinations.compactMap { destination -> (coordinate: BoardCoordinate, score: CGFloat)? in
+            let point = tvPoint(for: destination)
+            let dx = point.x - origin.x
+            let dy = point.y - origin.y
+
+            let primary: CGFloat
+            let secondary: CGFloat
+            switch direction {
+            case .left:
+                guard dx < -0.1 else { return nil }
+                primary = -dx
+                secondary = abs(dy)
+            case .right:
+                guard dx > 0.1 else { return nil }
+                primary = dx
+                secondary = abs(dy)
+            case .up:
+                guard dy < -0.1 else { return nil }
+                primary = -dy
+                secondary = abs(dx)
+            case .down:
+                guard dy > 0.1 else { return nil }
+                primary = dy
+                secondary = abs(dx)
+            @unknown default:
+                return nil
+            }
+
+            return (destination, primary + secondary * 1.6)
+        }
+
+        return candidates.min { $0.score < $1.score }?.coordinate
     }
 
     private func nextCoordinate(from current: BoardCoordinate, direction: MoveCommandDirection) -> BoardCoordinate? {
