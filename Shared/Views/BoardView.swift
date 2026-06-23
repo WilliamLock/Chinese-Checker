@@ -186,9 +186,9 @@ struct BoardView: View {
     private func cell(for coordinate: BoardCoordinate, layout: HexBoardLayout) -> some View {
         let marble = game.marble(at: coordinate)
         let isDestination = legalDestinations.contains(coordinate)
-        let isSelected = marble?.id == selectedMarbleID
         let isHome = game.redHome.contains(coordinate) || game.blueHome.contains(coordinate)
         let isFocused = focusedCoordinate == coordinate
+        let isSelected = isSelected(marble: marble, coordinate: coordinate, isFocused: isFocused)
 
         return Button {
             onTap(coordinate)
@@ -203,7 +203,11 @@ struct BoardView: View {
                 focusRing(size: layout.cellSize, isFocused: isFocused)
             }
         }
+        #if os(tvOS)
+        .buttonStyle(BoardCellButtonStyle())
+        #else
         .buttonStyle(.plain)
+        #endif
         .focusable(true)
         .focused($focusedCell, equals: coordinate)
         #if os(tvOS)
@@ -214,6 +218,15 @@ struct BoardView: View {
         .accessibilityLabel(accessibilityLabel(for: coordinate, marble: marble, isDestination: isDestination))
         .accessibilityIdentifier("cell_\(coordinate.q)_\(coordinate.r)")
         .accessibilityHint(accessibilityHint(for: marble, isDestination: isDestination))
+    }
+
+    private func isSelected(marble: Marble?, coordinate: BoardCoordinate, isFocused: Bool) -> Bool {
+        guard marble?.id == selectedMarbleID else { return false }
+        #if os(tvOS)
+        return false
+        #else
+        return true
+        #endif
     }
 
     private func socketView(size: CGFloat, isDestination: Bool, isHome: Bool) -> some View {
@@ -621,3 +634,13 @@ struct PolishedBoardShape: Shape {
         return path
     }
 }
+
+#if os(tvOS)
+private struct BoardCellButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.94 : 1.0)
+            .animation(.easeOut(duration: 0.10), value: configuration.isPressed)
+    }
+}
+#endif

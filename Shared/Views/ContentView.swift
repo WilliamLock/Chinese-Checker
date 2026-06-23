@@ -390,6 +390,11 @@ struct ContentView: View {
         guard let current else { return }
 
         if let next = nextCoordinate(from: current, direction: direction) {
+            if selectedMarbleID != nil,
+               !legalDestinations.contains(next),
+               game.marble(at: next)?.id != selectedMarbleID {
+                clearSelection()
+            }
             focusedCoordinate = next
         }
     }
