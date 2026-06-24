@@ -4,8 +4,10 @@ import math
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "Shared" / "Assets.xcassets" / "AppIcon.appiconset" / "app-icon-1024.png"
+OUT_DIR = ROOT / "Shared" / "Assets.xcassets" / "AppIcon.appiconset"
+OUT = OUT_DIR / "app-icon-1024.png"
 SIZE = 1024
+MAC_ICON_SIZES = [16, 32, 64, 128, 256, 512, 1024]
 
 
 def lerp(a, b, t):
@@ -104,4 +106,11 @@ base.alpha_composite(shine)
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
 base.save(OUT)
+
+for icon_size in MAC_ICON_SIZES:
+    if icon_size == SIZE:
+        continue
+    resized = base.resize((icon_size, icon_size), Image.Resampling.LANCZOS)
+    resized.save(OUT_DIR / f"app-icon-{icon_size}.png")
+
 print(OUT)

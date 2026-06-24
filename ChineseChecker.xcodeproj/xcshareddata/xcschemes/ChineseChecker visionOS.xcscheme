@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50B04DD4E27A6E71FFB653AA"
+               BlueprintIdentifier = "86A6F24069B4AA4BC22DF876"
                BuildableName = "ChineseChecker visionOS.app"
                BlueprintName = "ChineseChecker visionOS"
                ReferencedContainer = "container:ChineseChecker.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50B04DD4E27A6E71FFB653AA"
+            BlueprintIdentifier = "86A6F24069B4AA4BC22DF876"
             BuildableName = "ChineseChecker visionOS.app"
             BlueprintName = "ChineseChecker visionOS"
             ReferencedContainer = "container:ChineseChecker.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50B04DD4E27A6E71FFB653AA"
+            BlueprintIdentifier = "86A6F24069B4AA4BC22DF876"
             BuildableName = "ChineseChecker visionOS.app"
             BlueprintName = "ChineseChecker visionOS"
             ReferencedContainer = "container:ChineseChecker.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50B04DD4E27A6E71FFB653AA"
+            BlueprintIdentifier = "86A6F24069B4AA4BC22DF876"
             BuildableName = "ChineseChecker visionOS.app"
             BlueprintName = "ChineseChecker visionOS"
             ReferencedContainer = "container:ChineseChecker.xcodeproj">

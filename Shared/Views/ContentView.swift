@@ -36,7 +36,16 @@ struct ContentView: View {
             }
             .padding(.horizontal, 14)
             .padding(.top, 12)
-            .padding(.bottom, 18)
+            .padding(.bottom, bottomChromePadding)
+
+            #if LITE_VERSION && os(iOS)
+            VStack {
+                Spacer()
+                LiteAdBannerView()
+                    .background(Color.black.opacity(0.16))
+            }
+            .ignoresSafeArea(edges: .horizontal)
+            #endif
 
             if let winner = game.winner {
                 winnerOverlay(for: winner)
@@ -57,6 +66,14 @@ struct ContentView: View {
             clearSelection()
             focusCurrentPlayerIfNeeded()
         }
+    }
+
+    private var bottomChromePadding: CGFloat {
+        #if LITE_VERSION && os(iOS)
+        78
+        #else
+        18
+        #endif
     }
 
     private var topChrome: some View {

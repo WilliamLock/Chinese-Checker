@@ -7,279 +7,198 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B2B1AD315BCE03A00248D44 /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */; };
-		0C8164455FBFF06C1F8A9DE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE2C434A849AF35BC36FA53 /* Foundation.framework */; };
-		0CB8CC05D605A4AAD6426123 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */; };
-		0CF59A0DB2C0BF12C5194FF1 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */; };
-		129DE5D3921D7BAFB6726C57 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A419432E7CC053BD64644 /* GameModels.swift */; };
-		176769E3D412B1EE5440ECC5 /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */; };
-		1976FD0AAB860CCA2D21F7BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB6F65CA32BDF27BD47B60 /* ContentView.swift */; };
-		1A90DC8B0B46A855E26DBC03 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */; };
-		1CD786394E32D9E3F536AD41 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A419432E7CC053BD64644 /* GameModels.swift */; };
-		25C8661691C9BF48C74A4D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66C930B7501E7C897D3521F /* Foundation.framework */; };
-		2A27731592668E40B9854885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BBABF334FB878EC127EC61 /* Assets.xcassets */; };
-		3B1C77CF04C02C2968DC30A0 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */; };
-		3BBDE6D6E9757A7E0961C3DC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532F6233B260D6DB47166C4 /* BoardView.swift */; };
-		401754BC66ED2D460355C3D6 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */; };
-		425AD1D3F8A782F266FF0090 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */; };
-		4B14D32BF64FBB7B5B9A0FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BBABF334FB878EC127EC61 /* Assets.xcassets */; };
-		4F948908C2DEB20CE3785ECC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532F6233B260D6DB47166C4 /* BoardView.swift */; };
-		53BEAB24984A5849E16D5434 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A419432E7CC053BD64644 /* GameModels.swift */; };
-		5504AFA982CF85BB84213B6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107FE3A24B87E7BA64D92142 /* Foundation.framework */; };
-		56E2B9C3C87A62ED40032A5E /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */; };
-		59B3B23B166744D35F0930A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB6F65CA32BDF27BD47B60 /* ContentView.swift */; };
-		5A61B68F55162798C97F8649 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */; };
-		5E2C511F61853C2CDB1C5EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BBABF334FB878EC127EC61 /* Assets.xcassets */; };
-		61F5175C7C103BDEB9881EEB /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */; };
-		63986E3E12E54A69A753174B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF7DD876AD565159A70145B /* Cocoa.framework */; };
-		6480E9BEAB4A20F20FDF4957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB6F65CA32BDF27BD47B60 /* ContentView.swift */; };
-		6563E34F3597075429A9D2A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BBABF334FB878EC127EC61 /* Assets.xcassets */; };
-		67B2AA412333F8AA4C22A95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BBABF334FB878EC127EC61 /* Assets.xcassets */; };
-		6FF480551F6250D71631B4AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107FE3A24B87E7BA64D92142 /* Foundation.framework */; };
-		7539CCB2DF3A2991CAD1FD23 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */; };
-		7D8B951CCD71A58AC83F9165 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB6F65CA32BDF27BD47B60 /* ContentView.swift */; };
-		7E2A1EED6E163451645C7ED8 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */; };
-		8000EB9AD47D1B35F3CD6188 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */; };
-		81F45880C4962F4054CDE97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BBABF334FB878EC127EC61 /* Assets.xcassets */; };
-		88B703206DE34E4AF6BF00DA /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */; };
-		8BD69ED106B3C4DBF517D8BC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532F6233B260D6DB47166C4 /* BoardView.swift */; };
-		91C59C2EE9E1109504B5B874 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */; };
-		9317EADFF9E0FECF80AB641C /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A419432E7CC053BD64644 /* GameModels.swift */; };
-		9B0B5B2E53721E2D48849677 /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */; };
-		A072FEBA7279F213CFAFABF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB6F65CA32BDF27BD47B60 /* ContentView.swift */; };
-		A375057B5A019C2489A91D5A /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */; };
-		A730C4A0FB11BF0B9A576DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BBABF334FB878EC127EC61 /* Assets.xcassets */; };
-		A84803B60850FBB63092E6D4 /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */; };
-		A88E21542B5D7DB8B68E92D0 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */; };
-		BD0C36C57D73F3DA25BB83FF /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532F6233B260D6DB47166C4 /* BoardView.swift */; };
-		C29D0DB0039ED5275B8F3BE5 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532F6233B260D6DB47166C4 /* BoardView.swift */; };
-		C29D1E6C7C1162A2B1FC7095 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532F6233B260D6DB47166C4 /* BoardView.swift */; };
-		CA78C34FA88D22561EF685DD /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532F6233B260D6DB47166C4 /* BoardView.swift */; };
-		CF3E37B4BCD5ECAE7EA31A82 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A419432E7CC053BD64644 /* GameModels.swift */; };
-		D2209E5D09EB0F71F7950364 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB6F65CA32BDF27BD47B60 /* ContentView.swift */; };
-		D75CB6DB73451BE1F9371522 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB6F65CA32BDF27BD47B60 /* ContentView.swift */; };
-		E0DA595E3438AD21389E9DCF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF7DD876AD565159A70145B /* Cocoa.framework */; };
-		E1B3CEF3C37FB3FE79DA63FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BBABF334FB878EC127EC61 /* Assets.xcassets */; };
-		E73445DFFA8A861F982D27A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB6F65CA32BDF27BD47B60 /* ContentView.swift */; };
-		E8B90D6F53B40E0A4D3788AF /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A419432E7CC053BD64644 /* GameModels.swift */; };
-		EA307A0CC2C216ADFFCAAA47 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */; };
-		EA8291013BBCBEAEDE26AF7D /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */; };
-		ED1E9C657B39385CB7627E95 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A419432E7CC053BD64644 /* GameModels.swift */; };
-		EDEEEB804BAD3BCC3938E0B3 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532F6233B260D6DB47166C4 /* BoardView.swift */; };
-		F0A98D24B9F5F5498BF039E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE2C434A849AF35BC36FA53 /* Foundation.framework */; };
-		F0A999D42E3C362B4253525A /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */; };
-		F53E13923E027DC61CDD3820 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A419432E7CC053BD64644 /* GameModels.swift */; };
-		F5AF9692F6D8387E8F097CA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66C930B7501E7C897D3521F /* Foundation.framework */; };
-		FE8C51DE6E0BF493AB2992E1 /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */; };
+		065C134A6BE5078E2AE353A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237B630AB68664B27CDE23A /* ContentView.swift */; };
+		155D5AEC77B71069AF70CEBE /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33523F02B556BFFA32CC9E /* BoardView.swift */; };
+		180DDE2FF25543BCC13D93D0 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33523F02B556BFFA32CC9E /* BoardView.swift */; };
+		1962D2DE15F283EFFA8B9940 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33523F02B556BFFA32CC9E /* BoardView.swift */; };
+		1D048F6017EE1614BC855F84 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6C50D1A6131F8E19D3BD0 /* ChineseCheckerGame.swift */; };
+		1D72A2A714775ACBE9D53E94 /* LiteAdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988AABEC9502CE7E7ACFEF2A /* LiteAdBannerView.swift */; };
+		24AD65EE777FE47469DE8A77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237B630AB68664B27CDE23A /* ContentView.swift */; };
+		262FB9A1F37138B6EF471F29 /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F6239F4D590A962435C1B /* ChineseCheckerApp.swift */; };
+		29F7CB90170BA8B49977AF49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31443B7DA4482BF913ED6BC /* Foundation.framework */; };
+		37B84985127E78E92392D719 /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F6239F4D590A962435C1B /* ChineseCheckerApp.swift */; };
+		3DBD04A3AE5A9739F6C8912C /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6C50D1A6131F8E19D3BD0 /* ChineseCheckerGame.swift */; };
+		400B06F3746B6201915F80C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC2E5A431D3E892BB911437 /* Assets.xcassets */; };
+		44D04082ACCAC4FB02DDFFF4 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF80BB47AD403AD63AFD669 /* GameModels.swift */; };
+		6900278F2D96D0A8C29F7426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC2E5A431D3E892BB911437 /* Assets.xcassets */; };
+		6BD71C2EAF348F1CC2068CCF /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78732F6C90BEF1389840B227 /* BoardCoordinate.swift */; };
+		6FA1C399070BAEF56916939B /* LiteAdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988AABEC9502CE7E7ACFEF2A /* LiteAdBannerView.swift */; };
+		70EF574BE46C360E459EC06C /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF80BB47AD403AD63AFD669 /* GameModels.swift */; };
+		74F3D2A3F4B40836A9B279DA /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF80BB47AD403AD63AFD669 /* GameModels.swift */; };
+		7771D572EDB979C8D3978885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237B630AB68664B27CDE23A /* ContentView.swift */; };
+		7B486B83EC22552CA43D673F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC2E5A431D3E892BB911437 /* Assets.xcassets */; };
+		8164C1CE658B32CF9F7D7F27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8DD8F0E793EC0F9B035B37 /* Foundation.framework */; };
+		855C90FFE3A98C758C31CCA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7EFBE6079701A5A75AF768 /* Foundation.framework */; };
+		8914C0F225F7D5BCEED84FDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237B630AB68664B27CDE23A /* ContentView.swift */; };
+		89B4EF41C5FF287B259C502C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237B630AB68664B27CDE23A /* ContentView.swift */; };
+		8B50F1970DF3CE8A707302AA /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78732F6C90BEF1389840B227 /* BoardCoordinate.swift */; };
+		8E4E445DBC7BED12F5F8F400 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF80BB47AD403AD63AFD669 /* GameModels.swift */; };
+		8EEFC1D1F051550115F3EBC0 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78732F6C90BEF1389840B227 /* BoardCoordinate.swift */; };
+		9CF11F048C24018C69582B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC2E5A431D3E892BB911437 /* Assets.xcassets */; };
+		9E49FDC2209C0007510D0E5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3168CDCA07CC01682D2A90F /* Cocoa.framework */; };
+		B1E0F89F1F75148468CF8BC6 /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F6239F4D590A962435C1B /* ChineseCheckerApp.swift */; };
+		B33B3FD3A0BDF34F37170FB7 /* LiteAdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988AABEC9502CE7E7ACFEF2A /* LiteAdBannerView.swift */; };
+		BBF188948896DC41609BDB84 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78732F6C90BEF1389840B227 /* BoardCoordinate.swift */; };
+		BCC250285FB722C71BB598E2 /* BoardCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78732F6C90BEF1389840B227 /* BoardCoordinate.swift */; };
+		BF03C06CA6C4D88BF60E1505 /* LiteAdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988AABEC9502CE7E7ACFEF2A /* LiteAdBannerView.swift */; };
+		C0C423B5992974EAEF536305 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33523F02B556BFFA32CC9E /* BoardView.swift */; };
+		C26A4E639D9B694D456D2F86 /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F6239F4D590A962435C1B /* ChineseCheckerApp.swift */; };
+		C8A5CFA5C4506E90E03DE99D /* ChineseCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F6239F4D590A962435C1B /* ChineseCheckerApp.swift */; };
+		CCF1485459ABA3AD373C8D98 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF80BB47AD403AD63AFD669 /* GameModels.swift */; };
+		D7AA906A12038F33BF1CF909 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6C50D1A6131F8E19D3BD0 /* ChineseCheckerGame.swift */; };
+		E3B46A9BEBDBE0B071A7DE48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31443B7DA4482BF913ED6BC /* Foundation.framework */; };
+		F23C6C8B37F109B4BDE4C7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC2E5A431D3E892BB911437 /* Assets.xcassets */; };
+		F30764A424DD3782EB127E9D /* LiteAdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988AABEC9502CE7E7ACFEF2A /* LiteAdBannerView.swift */; };
+		F543017466015962FF4A9972 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6C50D1A6131F8E19D3BD0 /* ChineseCheckerGame.swift */; };
+		F6DAFB00F4509E731FC93911 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33523F02B556BFFA32CC9E /* BoardView.swift */; };
+		F8D87594062B41BD554CA553 /* ChineseCheckerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6C50D1A6131F8E19D3BD0 /* ChineseCheckerGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		093F012140B86DDD36A34A58 /* ChineseChecker macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D42BD454DD1DD8B2C8BF7FE /* ChineseChecker visionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker visionOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		107FE3A24B87E7BA64D92142 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1532F6233B260D6DB47166C4 /* BoardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoardView.swift; path = Shared/Views/BoardView.swift; sourceTree = "<group>"; };
-		30D76D976E8A5D8BBDB2B283 /* ChineseChecker Lite iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker Lite iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoardCoordinate.swift; path = Shared/Models/BoardCoordinate.swift; sourceTree = "<group>"; };
-		42D5BD84EAE569B77409D3C3 /* ChineseChecker iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChineseCheckerGame.swift; path = Shared/Models/ChineseCheckerGame.swift; sourceTree = "<group>"; };
-		4FE2C434A849AF35BC36FA53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/XROS.platform/Developer/SDKs/XROS2.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		56269E67DF36D20508100CBA /* ChineseChecker Lite macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker Lite macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A7A419432E7CC053BD64644 /* GameModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameModels.swift; path = Shared/Models/GameModels.swift; sourceTree = "<group>"; };
-		607A0351B58DE51FBBB9832B /* ChineseChecker tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		64CB6F65CA32BDF27BD47B60 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Shared/Views/ContentView.swift; sourceTree = "<group>"; };
-		7DF7DD876AD565159A70145B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		7FD5AF57A37F8F1D1FF3A9F0 /* ChineseChecker Lite tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker Lite tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D1CF6592467288B776CAF6D /* ChineseChecker Lite visionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker Lite visionOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0BBABF334FB878EC127EC61 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Shared/Assets.xcassets; sourceTree = "<group>"; };
-		C66C930B7501E7C897D3521F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChineseCheckerApp.swift; path = Shared/App/ChineseCheckerApp.swift; sourceTree = "<group>"; };
+		0B7EFBE6079701A5A75AF768 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1D33523F02B556BFFA32CC9E /* BoardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoardView.swift; path = Shared/Views/BoardView.swift; sourceTree = "<group>"; };
+		3DD0638585C7A23C85E8B164 /* ChineseChecker tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4237B630AB68664B27CDE23A /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Shared/Views/ContentView.swift; sourceTree = "<group>"; };
+		68C6C50D1A6131F8E19D3BD0 /* ChineseCheckerGame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChineseCheckerGame.swift; path = Shared/Models/ChineseCheckerGame.swift; sourceTree = "<group>"; };
+		7532A60C7FEEA8A60A64B217 /* ChineseChecker visionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker visionOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78732F6C90BEF1389840B227 /* BoardCoordinate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoardCoordinate.swift; path = Shared/Models/BoardCoordinate.swift; sourceTree = "<group>"; };
+		988AABEC9502CE7E7ACFEF2A /* LiteAdBannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiteAdBannerView.swift; path = Shared/Views/LiteAdBannerView.swift; sourceTree = "<group>"; };
+		A46F6239F4D590A962435C1B /* ChineseCheckerApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChineseCheckerApp.swift; path = Shared/App/ChineseCheckerApp.swift; sourceTree = "<group>"; };
+		A9C2A3EC85FCA0138A6EE74F /* ChineseChecker Lite iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker Lite iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31443B7DA4482BF913ED6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C3168CDCA07CC01682D2A90F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		DDC2E5A431D3E892BB911437 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Shared/Assets.xcassets; sourceTree = "<group>"; };
+		EEC8E3755D90CE039CEDA4F3 /* ChineseChecker iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F474B738913164D9D0EE0C2E /* ChineseChecker macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChineseChecker macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8DD8F0E793EC0F9B035B37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/XROS.platform/Developer/SDKs/XROS2.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FDF80BB47AD403AD63AFD669 /* GameModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameModels.swift; path = Shared/Models/GameModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7BBA88CD0CB6D439537FB631 /* Frameworks */ = {
+		1D5EB98214EFC7001CFC12C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8164455FBFF06C1F8A9DE7 /* Foundation.framework in Frameworks */,
+				8164C1CE658B32CF9F7D7F27 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		955AAB650DCA8F2CA403BE28 /* Frameworks */ = {
+		62E2B06CD844BFDC61397BE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5AF9692F6D8387E8F097CA3 /* Foundation.framework in Frameworks */,
+				9E49FDC2209C0007510D0E5A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AD49756BA411E4FF5B87FBA /* Frameworks */ = {
+		9A620019ACD3D50C2DA6C429 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DA595E3438AD21389E9DCF /* Cocoa.framework in Frameworks */,
+				E3B46A9BEBDBE0B071A7DE48 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEA7C3CA9448D621DACD8E85 /* Frameworks */ = {
+		C895E6A359C0595DF11EEB77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C8661691C9BF48C74A4D5E /* Foundation.framework in Frameworks */,
+				855C90FFE3A98C758C31CCA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C72F2115BC45054A0946BC47 /* Frameworks */ = {
+		D8DA2C35044E4E6C88D97580 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5504AFA982CF85BB84213B6F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01AED26FE698DFB78D2FEC2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63986E3E12E54A69A753174B /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF2ACF7440344A841F214BD5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0A98D24B9F5F5498BF039E1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E710808E23449668CEF06361 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FF480551F6250D71631B4AF /* Foundation.framework in Frameworks */,
+				29F7CB90170BA8B49977AF49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D223819C0C04E2A5F2F7D34 /* Frameworks */ = {
+		09FD29AED10397815DF9465E /* visionOS */ = {
 			isa = PBXGroup;
 			children = (
-				509EB9E3C168D238345A9046 /* iOS */,
-				E0F2A09D861D2A5FBFF6F2D5 /* OS X */,
-				DEEB49930BC5D267B535996C /* tvOS */,
-				EE16EEF47432F42BBF8B63FB /* visionOS */,
+				FC8DD8F0E793EC0F9B035B37 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = visionOS;
 			sourceTree = "<group>";
 		};
-		509EB9E3C168D238345A9046 /* iOS */ = {
+		14A15764AEA761D1E0828A2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C66C930B7501E7C897D3521F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		8651AFC5BF9DDDCC2491A092 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				42D5BD84EAE569B77409D3C3 /* ChineseChecker iOS.app */,
-				093F012140B86DDD36A34A58 /* ChineseChecker macOS.app */,
-				607A0351B58DE51FBBB9832B /* ChineseChecker tvOS.app */,
-				0D42BD454DD1DD8B2C8BF7FE /* ChineseChecker visionOS.app */,
-				30D76D976E8A5D8BBDB2B283 /* ChineseChecker Lite iOS.app */,
-				56269E67DF36D20508100CBA /* ChineseChecker Lite macOS.app */,
-				7FD5AF57A37F8F1D1FF3A9F0 /* ChineseChecker Lite tvOS.app */,
-				9D1CF6592467288B776CAF6D /* ChineseChecker Lite visionOS.app */,
+				EEC8E3755D90CE039CEDA4F3 /* ChineseChecker iOS.app */,
+				F474B738913164D9D0EE0C2E /* ChineseChecker macOS.app */,
+				3DD0638585C7A23C85E8B164 /* ChineseChecker tvOS.app */,
+				7532A60C7FEEA8A60A64B217 /* ChineseChecker visionOS.app */,
+				A9C2A3EC85FCA0138A6EE74F /* ChineseChecker Lite iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD3790F9606FAF85CCE19161 = {
+		56ED93117D6BC66E5940D4EA /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				8651AFC5BF9DDDCC2491A092 /* Products */,
-				4D223819C0C04E2A5F2F7D34 /* Frameworks */,
-				E79AEDD9861E160E0CE42C72 /* ChineseCheckerApp.swift */,
-				34E0ADD414E5157DC37A041D /* BoardCoordinate.swift */,
-				4C646EA88A76B54739B85A3C /* ChineseCheckerGame.swift */,
-				5A7A419432E7CC053BD64644 /* GameModels.swift */,
-				1532F6233B260D6DB47166C4 /* BoardView.swift */,
-				64CB6F65CA32BDF27BD47B60 /* ContentView.swift */,
-				C0BBABF334FB878EC127EC61 /* Assets.xcassets */,
-			);
-			sourceTree = "<group>";
-		};
-		DEEB49930BC5D267B535996C /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				107FE3A24B87E7BA64D92142 /* Foundation.framework */,
+				0B7EFBE6079701A5A75AF768 /* Foundation.framework */,
 			);
 			name = tvOS;
 			sourceTree = "<group>";
 		};
-		E0F2A09D861D2A5FBFF6F2D5 /* OS X */ = {
+		631414834EA9ADB7064EDCBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7DF7DD876AD565159A70145B /* Cocoa.framework */,
+				EAEF1D530B5FCA05B190006F /* iOS */,
+				D5A7F984488004B03D14499F /* OS X */,
+				56ED93117D6BC66E5940D4EA /* tvOS */,
+				09FD29AED10397815DF9465E /* visionOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B771BD7DCB8D21C7CC9E770 = {
+			isa = PBXGroup;
+			children = (
+				14A15764AEA761D1E0828A2F /* Products */,
+				631414834EA9ADB7064EDCBD /* Frameworks */,
+				A46F6239F4D590A962435C1B /* ChineseCheckerApp.swift */,
+				78732F6C90BEF1389840B227 /* BoardCoordinate.swift */,
+				68C6C50D1A6131F8E19D3BD0 /* ChineseCheckerGame.swift */,
+				FDF80BB47AD403AD63AFD669 /* GameModels.swift */,
+				1D33523F02B556BFFA32CC9E /* BoardView.swift */,
+				4237B630AB68664B27CDE23A /* ContentView.swift */,
+				988AABEC9502CE7E7ACFEF2A /* LiteAdBannerView.swift */,
+				DDC2E5A431D3E892BB911437 /* Assets.xcassets */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A7F984488004B03D14499F /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C3168CDCA07CC01682D2A90F /* Cocoa.framework */,
 			);
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		EE16EEF47432F42BBF8B63FB /* visionOS */ = {
+		EAEF1D530B5FCA05B190006F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4FE2C434A849AF35BC36FA53 /* Foundation.framework */,
+				C31443B7DA4482BF913ED6BC /* Foundation.framework */,
 			);
-			name = visionOS;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		073FD58A038080F5AF6C0693 /* ChineseChecker Lite iOS */ = {
+		2639963BE3FF9D14067B7831 /* ChineseChecker iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E178DE2395AF43C439ECC00B /* Build configuration list for PBXNativeTarget "ChineseChecker Lite iOS" */;
+			buildConfigurationList = 2C293325374AA9B293900E26 /* Build configuration list for PBXNativeTarget "ChineseChecker iOS" */;
 			buildPhases = (
-				4A6B138CDBAA55B322483B98 /* Sources */,
-				955AAB650DCA8F2CA403BE28 /* Frameworks */,
-				EE778B8A2A4FBD959142FADA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ChineseChecker Lite iOS";
-			productName = "ChineseChecker Lite iOS";
-			productReference = 30D76D976E8A5D8BBDB2B283 /* ChineseChecker Lite iOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		0EAAD43A59991FE77D9EC2AC /* ChineseChecker Lite tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4D22AFE27254E47B73AC43B /* Build configuration list for PBXNativeTarget "ChineseChecker Lite tvOS" */;
-			buildPhases = (
-				5E653C4756AB36E9D8C685F3 /* Sources */,
-				C72F2115BC45054A0946BC47 /* Frameworks */,
-				94121B4829021ECF4B2E5683 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ChineseChecker Lite tvOS";
-			productName = "ChineseChecker Lite tvOS";
-			productReference = 7FD5AF57A37F8F1D1FF3A9F0 /* ChineseChecker Lite tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		21140D58B36DFFE6E63FDF42 /* ChineseChecker iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7D4ADBA38D8DB0B03E0A675C /* Build configuration list for PBXNativeTarget "ChineseChecker iOS" */;
-			buildPhases = (
-				20AE701F65AC3947650F0E76 /* Sources */,
-				BEA7C3CA9448D621DACD8E85 /* Frameworks */,
-				2401EA1655D6FD03593FDD45 /* Resources */,
+				C1AE780A286B33E0A4F09143 /* Sources */,
+				9A620019ACD3D50C2DA6C429 /* Frameworks */,
+				B6EE734CCF93819C8E6DFDED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -287,84 +206,16 @@
 			);
 			name = "ChineseChecker iOS";
 			productName = "ChineseChecker iOS";
-			productReference = 42D5BD84EAE569B77409D3C3 /* ChineseChecker iOS.app */;
+			productReference = EEC8E3755D90CE039CEDA4F3 /* ChineseChecker iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		50B04DD4E27A6E71FFB653AA /* ChineseChecker visionOS */ = {
+		32F59FB3C767417FF0E6DE88 /* ChineseChecker macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECBF1C4A8AB08802AFDA5459 /* Build configuration list for PBXNativeTarget "ChineseChecker visionOS" */;
+			buildConfigurationList = 97B8167546C3BC01042403F7 /* Build configuration list for PBXNativeTarget "ChineseChecker macOS" */;
 			buildPhases = (
-				59B756DD082DE8856ADA0EE4 /* Sources */,
-				7BBA88CD0CB6D439537FB631 /* Frameworks */,
-				BAB273B1FBDA79A2F3701BC5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ChineseChecker visionOS";
-			productName = "ChineseChecker visionOS";
-			productReference = 0D42BD454DD1DD8B2C8BF7FE /* ChineseChecker visionOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		521C7AB6B1687042FABD507F /* ChineseChecker Lite macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE57CDD3144637B2AF1DEA55 /* Build configuration list for PBXNativeTarget "ChineseChecker Lite macOS" */;
-			buildPhases = (
-				7476F25AFEF8CB31F1A1527A /* Sources */,
-				9AD49756BA411E4FF5B87FBA /* Frameworks */,
-				423F70C40652CB89F59C2E24 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ChineseChecker Lite macOS";
-			productName = "ChineseChecker Lite macOS";
-			productReference = 56269E67DF36D20508100CBA /* ChineseChecker Lite macOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		5C52CA7CDEEEA23639F5EC6A /* ChineseChecker tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 238A1C12B63FB15B481270FB /* Build configuration list for PBXNativeTarget "ChineseChecker tvOS" */;
-			buildPhases = (
-				3B7C8F64C20A64E60E8FC4D6 /* Sources */,
-				E710808E23449668CEF06361 /* Frameworks */,
-				F2F0A32D867CAF64308B1C06 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ChineseChecker tvOS";
-			productName = "ChineseChecker tvOS";
-			productReference = 607A0351B58DE51FBBB9832B /* ChineseChecker tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		680BD556F6F129B651454FD0 /* ChineseChecker Lite visionOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4FD92ACEC1C59C5C98B2027 /* Build configuration list for PBXNativeTarget "ChineseChecker Lite visionOS" */;
-			buildPhases = (
-				DC80DB0D9B24410FA7F32AE0 /* Sources */,
-				DF2ACF7440344A841F214BD5 /* Frameworks */,
-				38D816F93F17BCD0F1F15FFD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ChineseChecker Lite visionOS";
-			productName = "ChineseChecker Lite visionOS";
-			productReference = 9D1CF6592467288B776CAF6D /* ChineseChecker Lite visionOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		E699D99223E020889F6FD260 /* ChineseChecker macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E15A4A03B3D2D1779E1CEFF /* Build configuration list for PBXNativeTarget "ChineseChecker macOS" */;
-			buildPhases = (
-				CC4575B74C7AD579D4DA5470 /* Sources */,
-				D01AED26FE698DFB78D2FEC2 /* Frameworks */,
-				4D61E25F22F4EF3AE5D058A1 /* Resources */,
+				00440B9F043F75352E79C64B /* Sources */,
+				62E2B06CD844BFDC61397BE8 /* Frameworks */,
+				DD0826F5D10E7DB417B384C1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -372,19 +223,71 @@
 			);
 			name = "ChineseChecker macOS";
 			productName = "ChineseChecker macOS";
-			productReference = 093F012140B86DDD36A34A58 /* ChineseChecker macOS.app */;
+			productReference = F474B738913164D9D0EE0C2E /* ChineseChecker macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86A6F24069B4AA4BC22DF876 /* ChineseChecker visionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFD9A2220B584322F2C43D7 /* Build configuration list for PBXNativeTarget "ChineseChecker visionOS" */;
+			buildPhases = (
+				C2CD4625499BF68C00191A82 /* Sources */,
+				1D5EB98214EFC7001CFC12C5 /* Frameworks */,
+				509B7C782514D2A7B8993379 /* Resources */,
+				E91CE50348B667337749FB7B /* Patch visionOS App Icon Info.plist */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChineseChecker visionOS";
+			productName = "ChineseChecker visionOS";
+			productReference = 7532A60C7FEEA8A60A64B217 /* ChineseChecker visionOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C92063B985FBF6A2C386834 /* ChineseChecker tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4CD282E58035994F5C4789 /* Build configuration list for PBXNativeTarget "ChineseChecker tvOS" */;
+			buildPhases = (
+				909267FF14F67DE49BB7B2FE /* Sources */,
+				C895E6A359C0595DF11EEB77 /* Frameworks */,
+				75998D3FCAC06526838B42FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChineseChecker tvOS";
+			productName = "ChineseChecker tvOS";
+			productReference = 3DD0638585C7A23C85E8B164 /* ChineseChecker tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5468FFDDA51D4D8D66A99E0 /* ChineseChecker Lite iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F1FB40EF8F57BE0F509EDC /* Build configuration list for PBXNativeTarget "ChineseChecker Lite iOS" */;
+			buildPhases = (
+				45AEAA0CE7229D3C2F0B1913 /* Sources */,
+				D8DA2C35044E4E6C88D97580 /* Frameworks */,
+				97C3031633F7E854A4BA781B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChineseChecker Lite iOS";
+			productName = "ChineseChecker Lite iOS";
+			productReference = A9C2A3EC85FCA0138A6EE74F /* ChineseChecker Lite iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		50971366923F00DBF8EF623D /* Project object */ = {
+		6D4D89AF67B113354F5484B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 3E534A71DDB85187D0829ED4 /* Build configuration list for PBXProject "ChineseChecker" */;
+			buildConfigurationList = 306BB800B80509341C694C4A /* Build configuration list for PBXProject "ChineseChecker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -392,229 +295,166 @@
 				en,
 				Base,
 			);
-			mainGroup = AD3790F9606FAF85CCE19161;
+			mainGroup = 9B771BD7DCB8D21C7CC9E770;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8651AFC5BF9DDDCC2491A092 /* Products */;
+			productRefGroup = 14A15764AEA761D1E0828A2F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21140D58B36DFFE6E63FDF42 /* ChineseChecker iOS */,
-				E699D99223E020889F6FD260 /* ChineseChecker macOS */,
-				5C52CA7CDEEEA23639F5EC6A /* ChineseChecker tvOS */,
-				50B04DD4E27A6E71FFB653AA /* ChineseChecker visionOS */,
-				073FD58A038080F5AF6C0693 /* ChineseChecker Lite iOS */,
-				521C7AB6B1687042FABD507F /* ChineseChecker Lite macOS */,
-				0EAAD43A59991FE77D9EC2AC /* ChineseChecker Lite tvOS */,
-				680BD556F6F129B651454FD0 /* ChineseChecker Lite visionOS */,
+				2639963BE3FF9D14067B7831 /* ChineseChecker iOS */,
+				32F59FB3C767417FF0E6DE88 /* ChineseChecker macOS */,
+				9C92063B985FBF6A2C386834 /* ChineseChecker tvOS */,
+				86A6F24069B4AA4BC22DF876 /* ChineseChecker visionOS */,
+				F5468FFDDA51D4D8D66A99E0 /* ChineseChecker Lite iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2401EA1655D6FD03593FDD45 /* Resources */ = {
+		509B7C782514D2A7B8993379 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B2AA412333F8AA4C22A95F /* Assets.xcassets in Resources */,
+				F23C6C8B37F109B4BDE4C7A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38D816F93F17BCD0F1F15FFD /* Resources */ = {
+		75998D3FCAC06526838B42FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2C511F61853C2CDB1C5EC0 /* Assets.xcassets in Resources */,
+				9CF11F048C24018C69582B5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		423F70C40652CB89F59C2E24 /* Resources */ = {
+		97C3031633F7E854A4BA781B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81F45880C4962F4054CDE97C /* Assets.xcassets in Resources */,
+				7B486B83EC22552CA43D673F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D61E25F22F4EF3AE5D058A1 /* Resources */ = {
+		B6EE734CCF93819C8E6DFDED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6563E34F3597075429A9D2A9 /* Assets.xcassets in Resources */,
+				6900278F2D96D0A8C29F7426 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94121B4829021ECF4B2E5683 /* Resources */ = {
+		DD0826F5D10E7DB417B384C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A27731592668E40B9854885 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAB273B1FBDA79A2F3701BC5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B14D32BF64FBB7B5B9A0FDE /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE778B8A2A4FBD959142FADA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1B3CEF3C37FB3FE79DA63FC /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2F0A32D867CAF64308B1C06 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A730C4A0FB11BF0B9A576DEA /* Assets.xcassets in Resources */,
+				400B06F3746B6201915F80C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E91CE50348B667337749FB7B /* Patch visionOS App Icon Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Patch visionOS App Icon Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nPLIST=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\nif [ -f \"$PLIST\" ]; then\n  /usr/libexec/PlistBuddy -c \"Delete :CFBundleIcons\" \"$PLIST\" 2>/dev/null || true\n  /usr/libexec/PlistBuddy -c \"Add :CFBundleIcons dict\" \"$PLIST\"\n  /usr/libexec/PlistBuddy -c \"Add :CFBundleIcons:CFBundlePrimaryIcon string AppIconVision\" \"$PLIST\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		20AE701F65AC3947650F0E76 /* Sources */ = {
+		00440B9F043F75352E79C64B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84803B60850FBB63092E6D4 /* ChineseCheckerApp.swift in Sources */,
-				425AD1D3F8A782F266FF0090 /* BoardCoordinate.swift in Sources */,
-				3B1C77CF04C02C2968DC30A0 /* ChineseCheckerGame.swift in Sources */,
-				ED1E9C657B39385CB7627E95 /* GameModels.swift in Sources */,
-				CA78C34FA88D22561EF685DD /* BoardView.swift in Sources */,
-				D2209E5D09EB0F71F7950364 /* ContentView.swift in Sources */,
+				C26A4E639D9B694D456D2F86 /* ChineseCheckerApp.swift in Sources */,
+				8B50F1970DF3CE8A707302AA /* BoardCoordinate.swift in Sources */,
+				F543017466015962FF4A9972 /* ChineseCheckerGame.swift in Sources */,
+				44D04082ACCAC4FB02DDFFF4 /* GameModels.swift in Sources */,
+				F6DAFB00F4509E731FC93911 /* BoardView.swift in Sources */,
+				89B4EF41C5FF287B259C502C /* ContentView.swift in Sources */,
+				B33B3FD3A0BDF34F37170FB7 /* LiteAdBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B7C8F64C20A64E60E8FC4D6 /* Sources */ = {
+		45AEAA0CE7229D3C2F0B1913 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61F5175C7C103BDEB9881EEB /* ChineseCheckerApp.swift in Sources */,
-				EA307A0CC2C216ADFFCAAA47 /* BoardCoordinate.swift in Sources */,
-				0CF59A0DB2C0BF12C5194FF1 /* ChineseCheckerGame.swift in Sources */,
-				1CD786394E32D9E3F536AD41 /* GameModels.swift in Sources */,
-				C29D0DB0039ED5275B8F3BE5 /* BoardView.swift in Sources */,
-				A072FEBA7279F213CFAFABF7 /* ContentView.swift in Sources */,
+				262FB9A1F37138B6EF471F29 /* ChineseCheckerApp.swift in Sources */,
+				8EEFC1D1F051550115F3EBC0 /* BoardCoordinate.swift in Sources */,
+				3DBD04A3AE5A9739F6C8912C /* ChineseCheckerGame.swift in Sources */,
+				74F3D2A3F4B40836A9B279DA /* GameModels.swift in Sources */,
+				180DDE2FF25543BCC13D93D0 /* BoardView.swift in Sources */,
+				8914C0F225F7D5BCEED84FDC /* ContentView.swift in Sources */,
+				6FA1C399070BAEF56916939B /* LiteAdBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A6B138CDBAA55B322483B98 /* Sources */ = {
+		909267FF14F67DE49BB7B2FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0B5B2E53721E2D48849677 /* ChineseCheckerApp.swift in Sources */,
-				7539CCB2DF3A2991CAD1FD23 /* BoardCoordinate.swift in Sources */,
-				1A90DC8B0B46A855E26DBC03 /* ChineseCheckerGame.swift in Sources */,
-				F53E13923E027DC61CDD3820 /* GameModels.swift in Sources */,
-				8BD69ED106B3C4DBF517D8BC /* BoardView.swift in Sources */,
-				6480E9BEAB4A20F20FDF4957 /* ContentView.swift in Sources */,
+				37B84985127E78E92392D719 /* ChineseCheckerApp.swift in Sources */,
+				BBF188948896DC41609BDB84 /* BoardCoordinate.swift in Sources */,
+				D7AA906A12038F33BF1CF909 /* ChineseCheckerGame.swift in Sources */,
+				CCF1485459ABA3AD373C8D98 /* GameModels.swift in Sources */,
+				155D5AEC77B71069AF70CEBE /* BoardView.swift in Sources */,
+				7771D572EDB979C8D3978885 /* ContentView.swift in Sources */,
+				F30764A424DD3782EB127E9D /* LiteAdBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59B756DD082DE8856ADA0EE4 /* Sources */ = {
+		C1AE780A286B33E0A4F09143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56E2B9C3C87A62ED40032A5E /* ChineseCheckerApp.swift in Sources */,
-				5A61B68F55162798C97F8649 /* BoardCoordinate.swift in Sources */,
-				91C59C2EE9E1109504B5B874 /* ChineseCheckerGame.swift in Sources */,
-				53BEAB24984A5849E16D5434 /* GameModels.swift in Sources */,
-				C29D1E6C7C1162A2B1FC7095 /* BoardView.swift in Sources */,
-				7D8B951CCD71A58AC83F9165 /* ContentView.swift in Sources */,
+				B1E0F89F1F75148468CF8BC6 /* ChineseCheckerApp.swift in Sources */,
+				BCC250285FB722C71BB598E2 /* BoardCoordinate.swift in Sources */,
+				1D048F6017EE1614BC855F84 /* ChineseCheckerGame.swift in Sources */,
+				8E4E445DBC7BED12F5F8F400 /* GameModels.swift in Sources */,
+				C0C423B5992974EAEF536305 /* BoardView.swift in Sources */,
+				065C134A6BE5078E2AE353A5 /* ContentView.swift in Sources */,
+				1D72A2A714775ACBE9D53E94 /* LiteAdBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E653C4756AB36E9D8C685F3 /* Sources */ = {
+		C2CD4625499BF68C00191A82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B2B1AD315BCE03A00248D44 /* ChineseCheckerApp.swift in Sources */,
-				7E2A1EED6E163451645C7ED8 /* BoardCoordinate.swift in Sources */,
-				F0A999D42E3C362B4253525A /* ChineseCheckerGame.swift in Sources */,
-				9317EADFF9E0FECF80AB641C /* GameModels.swift in Sources */,
-				4F948908C2DEB20CE3785ECC /* BoardView.swift in Sources */,
-				E73445DFFA8A861F982D27A2 /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7476F25AFEF8CB31F1A1527A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				176769E3D412B1EE5440ECC5 /* ChineseCheckerApp.swift in Sources */,
-				8000EB9AD47D1B35F3CD6188 /* BoardCoordinate.swift in Sources */,
-				A88E21542B5D7DB8B68E92D0 /* ChineseCheckerGame.swift in Sources */,
-				E8B90D6F53B40E0A4D3788AF /* GameModels.swift in Sources */,
-				3BBDE6D6E9757A7E0961C3DC /* BoardView.swift in Sources */,
-				59B3B23B166744D35F0930A1 /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC4575B74C7AD579D4DA5470 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE8C51DE6E0BF493AB2992E1 /* ChineseCheckerApp.swift in Sources */,
-				401754BC66ED2D460355C3D6 /* BoardCoordinate.swift in Sources */,
-				0CB8CC05D605A4AAD6426123 /* ChineseCheckerGame.swift in Sources */,
-				129DE5D3921D7BAFB6726C57 /* GameModels.swift in Sources */,
-				EDEEEB804BAD3BCC3938E0B3 /* BoardView.swift in Sources */,
-				D75CB6DB73451BE1F9371522 /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC80DB0D9B24410FA7F32AE0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA8291013BBCBEAEDE26AF7D /* ChineseCheckerApp.swift in Sources */,
-				A375057B5A019C2489A91D5A /* BoardCoordinate.swift in Sources */,
-				88B703206DE34E4AF6BF00DA /* ChineseCheckerGame.swift in Sources */,
-				CF3E37B4BCD5ECAE7EA31A82 /* GameModels.swift in Sources */,
-				BD0C36C57D73F3DA25BB83FF /* BoardView.swift in Sources */,
-				1976FD0AAB860CCA2D21F7BF /* ContentView.swift in Sources */,
+				C8A5CFA5C4506E90E03DE99D /* ChineseCheckerApp.swift in Sources */,
+				6BD71C2EAF348F1CC2068CCF /* BoardCoordinate.swift in Sources */,
+				F8D87594062B41BD554CA553 /* ChineseCheckerGame.swift in Sources */,
+				70EF574BE46C360E459EC06C /* GameModels.swift in Sources */,
+				1962D2DE15F283EFFA8B9940 /* BoardView.swift in Sources */,
+				24AD65EE777FE47469DE8A77 /* ContentView.swift in Sources */,
+				BF03C06CA6C4D88BF60E1505 /* LiteAdBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0DBBAB145A2BE624DA66956A /* Debug */ = {
+		166FF383904AFE26C22C9BAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AK2DM5M5FX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
-				PRODUCT_NAME = "Duo Chinese Checkers";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "";
-			};
-			name = Debug;
-		};
-		119F67D752363D89906B2456 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTV;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AK2DM5M5FX;
@@ -622,21 +462,53 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
 				PRODUCT_NAME = "Duo Chinese Checkers";
-				SDKROOT = appletvos;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 17.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		124072ACF5C710FEC0FD4262 /* Debug */ = {
+		25248A34A1F40776B6C8B960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2DM5M5FX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
+				PRODUCT_NAME = "Duo Chinese Checkers";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28F3B2E802C9BEBF31F9891A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVision;
@@ -660,64 +532,7 @@
 			};
 			name = Debug;
 		};
-		1F13739A549CAE2940809C2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTV;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AK2DM5M5FX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers Lite";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "$(inherited) -DLITE_VERSION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers.lite;
-				PRODUCT_NAME = "Duo Chinese Checkers Lite";
-				SDKROOT = appletvos;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 17.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		58E389FBC85DECC73B7C5E4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AK2DM5M5FX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
-				PRODUCT_NAME = "Duo Chinese Checkers";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		64395DA8B91E0246DDCB2B20 /* Release */ = {
+		3919C0678F5AD0A7D67148BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -729,6 +544,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers Lite";
+				INFOPLIST_KEY_GADApplicationIdentifier = "ca-app-pub-3940256099942544~1458002511";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -744,36 +560,10 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7F05CB78A4F48BC05B6FA898 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTV;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AK2DM5M5FX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
-				PRODUCT_NAME = "Duo Chinese Checkers";
-				SDKROOT = appletvos;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 17.0;
 			};
 			name = Debug;
 		};
-		89C2E059DA1670BEABB30087 /* Release */ = {
+		58251E90F7EAAC6DF932C41B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -827,7 +617,39 @@
 			};
 			name = Release;
 		};
-		920BCEF24F09125E76C44FE1 /* Debug */ = {
+		86C5F8845A801A40FD689516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2DM5M5FX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers Lite";
+				INFOPLIST_KEY_GADApplicationIdentifier = "ca-app-pub-3940256099942544~1458002511";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DLITE_VERSION";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers.lite;
+				PRODUCT_NAME = "Duo Chinese Checkers Lite";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A11A25E85566409B6F6122 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -888,7 +710,7 @@
 			};
 			name = Debug;
 		};
-		931A89087A8A5509209799DA /* Debug */ = {
+		AF300EBBB888A0B5947DE13B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTV;
@@ -898,14 +720,13 @@
 				DEVELOPMENT_TEAM = AK2DM5M5FX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers Lite";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "$(inherited) -DLITE_VERSION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers.lite;
-				PRODUCT_NAME = "Duo Chinese Checkers Lite";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
+				PRODUCT_NAME = "Duo Chinese Checkers";
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
 				SWIFT_VERSION = 6.0;
@@ -914,37 +735,61 @@
 			};
 			name = Debug;
 		};
-		948B46B7B1C8957FB1259088 /* Release */ = {
+		C55B081F4B9E7E47CDEE3997 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVision;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AK2DM5M5FX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers Lite";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "$(inherited) -DLITE_VERSION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers.lite;
-				PRODUCT_NAME = "Duo Chinese Checkers Lite";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
+				PRODUCT_NAME = "Duo Chinese Checkers";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "";
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
-		9F80943AD98CB12209856D95 /* Debug */ = {
+		DB2EE622F4F58FECFDD750AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = "Shared/Entitlements/ChineseChecker-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2DM5M5FX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
+				PRODUCT_NAME = "Duo Chinese Checkers";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "";
+			};
+			name = Debug;
+		};
+		DC8623BD7742FBBD004A4BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTV;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AK2DM5M5FX;
@@ -952,130 +797,26 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
 				PRODUCT_NAME = "Duo Chinese Checkers";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		A3E0BDF73E5A181E780E22B1 /* Debug */ = {
+		ECE9C0F1C56D5986E37F30FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AK2DM5M5FX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers Lite";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "$(inherited) -DLITE_VERSION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers.lite;
-				PRODUCT_NAME = "Duo Chinese Checkers Lite";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AFF689EDB21BBFE72DDACD00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVision;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AK2DM5M5FX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers Lite";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "$(inherited) -DLITE_VERSION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers.lite;
-				PRODUCT_NAME = "Duo Chinese Checkers Lite";
-				SDKROOT = xros;
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 7;
-				XROS_DEPLOYMENT_TARGET = 1.0;
-			};
-			name = Debug;
-		};
-		B9F4493583B1C426134ED476 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVision;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AK2DM5M5FX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers;
-				PRODUCT_NAME = "Duo Chinese Checkers";
-				SDKROOT = xros;
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 7;
-				XROS_DEPLOYMENT_TARGET = 1.0;
-			};
-			name = Release;
-		};
-		CAFD8D8C80887521EBA9AD33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AK2DM5M5FX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers Lite";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "$(inherited) -DLITE_VERSION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers.lite;
-				PRODUCT_NAME = "Duo Chinese Checkers Lite";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "";
-			};
-			name = Debug;
-		};
-		E290C28A3A75C186E7FAD177 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Shared/Entitlements/ChineseChecker-macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1093,119 +834,67 @@
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "";
-			};
-			name = Release;
-		};
-		F76E2E0C47C33223CE8D4860 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconVision;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AK2DM5M5FX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Duo Chinese Checkers Lite";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "$(inherited) -DLITE_VERSION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lockstudio.duochinesecheckers.lite;
-				PRODUCT_NAME = "Duo Chinese Checkers Lite";
-				SDKROOT = xros;
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 7;
-				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		238A1C12B63FB15B481270FB /* Build configuration list for PBXNativeTarget "ChineseChecker tvOS" */ = {
+		1C4CD282E58035994F5C4789 /* Build configuration list for PBXNativeTarget "ChineseChecker tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				119F67D752363D89906B2456 /* Release */,
-				7F05CB78A4F48BC05B6FA898 /* Debug */,
+				DC8623BD7742FBBD004A4BFF /* Release */,
+				AF300EBBB888A0B5947DE13B /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E534A71DDB85187D0829ED4 /* Build configuration list for PBXProject "ChineseChecker" */ = {
+		2C293325374AA9B293900E26 /* Build configuration list for PBXNativeTarget "ChineseChecker iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				920BCEF24F09125E76C44FE1 /* Debug */,
-				89C2E059DA1670BEABB30087 /* Release */,
+				166FF383904AFE26C22C9BAC /* Release */,
+				25248A34A1F40776B6C8B960 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D4ADBA38D8DB0B03E0A675C /* Build configuration list for PBXNativeTarget "ChineseChecker iOS" */ = {
+		306BB800B80509341C694C4A /* Build configuration list for PBXProject "ChineseChecker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58E389FBC85DECC73B7C5E4C /* Release */,
-				9F80943AD98CB12209856D95 /* Debug */,
+				94A11A25E85566409B6F6122 /* Debug */,
+				58251E90F7EAAC6DF932C41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E15A4A03B3D2D1779E1CEFF /* Build configuration list for PBXNativeTarget "ChineseChecker macOS" */ = {
+		3BFD9A2220B584322F2C43D7 /* Build configuration list for PBXNativeTarget "ChineseChecker visionOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E290C28A3A75C186E7FAD177 /* Release */,
-				0DBBAB145A2BE624DA66956A /* Debug */,
+				C55B081F4B9E7E47CDEE3997 /* Release */,
+				28F3B2E802C9BEBF31F9891A /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4D22AFE27254E47B73AC43B /* Build configuration list for PBXNativeTarget "ChineseChecker Lite tvOS" */ = {
+		97B8167546C3BC01042403F7 /* Build configuration list for PBXNativeTarget "ChineseChecker macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F13739A549CAE2940809C2D /* Release */,
-				931A89087A8A5509209799DA /* Debug */,
+				ECE9C0F1C56D5986E37F30FC /* Release */,
+				DB2EE622F4F58FECFDD750AE /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E178DE2395AF43C439ECC00B /* Build configuration list for PBXNativeTarget "ChineseChecker Lite iOS" */ = {
+		B5F1FB40EF8F57BE0F509EDC /* Build configuration list for PBXNativeTarget "ChineseChecker Lite iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64395DA8B91E0246DDCB2B20 /* Release */,
-				A3E0BDF73E5A181E780E22B1 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ECBF1C4A8AB08802AFDA5459 /* Build configuration list for PBXNativeTarget "ChineseChecker visionOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9F4493583B1C426134ED476 /* Release */,
-				124072ACF5C710FEC0FD4262 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE57CDD3144637B2AF1DEA55 /* Build configuration list for PBXNativeTarget "ChineseChecker Lite macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				948B46B7B1C8957FB1259088 /* Release */,
-				CAFD8D8C80887521EBA9AD33 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4FD92ACEC1C59C5C98B2027 /* Build configuration list for PBXNativeTarget "ChineseChecker Lite visionOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F76E2E0C47C33223CE8D4860 /* Release */,
-				AFF689EDB21BBFE72DDACD00 /* Debug */,
+				86C5F8845A801A40FD689516 /* Release */,
+				3919C0678F5AD0A7D67148BE /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 50971366923F00DBF8EF623D /* Project object */;
+	rootObject = 6D4D89AF67B113354F5484B3 /* Project object */;
 }
