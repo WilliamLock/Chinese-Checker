@@ -1,4 +1,4 @@
-# Chinese Checker
+# Duo Chinese Checkers
 
 A simplified Chinese Checkers game for Apple platforms, built with shared SwiftUI and shared game logic.
 

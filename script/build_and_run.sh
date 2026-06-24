@@ -2,8 +2,8 @@
 set -euo pipefail
 
 MODE="${1:-run}"
-APP_NAME="Chinese Checker"
-BUNDLE_ID="com.lockstudio.chinesechecker.macos"
+APP_NAME="Duo Chinese Checkers"
+BUNDLE_ID="com.lockstudio.duochinesecheckers"
 PROJECT_NAME="ChineseChecker.xcodeproj"
 SCHEME="ChineseChecker macOS"
 

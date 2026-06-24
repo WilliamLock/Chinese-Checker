@@ -38,7 +38,7 @@ Recommended candidates:
 
 Current target display names:
 
-- Full version: Chinese Checker
-- Lite version: Chinese Checker Lite
+- Full version: Duo Chinese Checkers
+- Lite version: Duo Chinese Checkers Lite
 
 Final name availability must be confirmed inside App Store Connect when creating the app record.

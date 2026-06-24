@@ -2,8 +2,8 @@
 
 ## App Records
 
-- Full app display name: Chinese Checker
-- Lite app display name: Chinese Checker Lite
+- Full app display name: Duo Chinese Checkers
+- Lite app display name: Duo Chinese Checkers Lite
 - Confirm final public names in App Store Connect before reserving.
 - Suggested differentiated names are listed in `RELEASE_PREP.md`.
 

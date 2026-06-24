@@ -2,8 +2,8 @@
 set -euo pipefail
 
 TARGET="${1:-iphone}"
-APP_NAME="Chinese Checker"
-BUNDLE_ID="com.lockstudio.chinesechecker.ios"
+APP_NAME="Duo Chinese Checkers"
+BUNDLE_ID="com.lockstudio.duochinesecheckers"
 PROJECT_NAME="ChineseChecker.xcodeproj"
 SCHEME="ChineseChecker iOS"
 
