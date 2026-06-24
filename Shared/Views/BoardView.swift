@@ -226,12 +226,7 @@ struct BoardView: View {
     }
 
     private func isSelected(marble: Marble?, coordinate: BoardCoordinate, isFocused: Bool) -> Bool {
-        guard marble?.id == selectedMarbleID else { return false }
-        #if os(tvOS)
-        return false
-        #else
-        return true
-        #endif
+        marble?.id == selectedMarbleID
     }
 
     private func socketView(size: CGFloat, isDestination: Bool, isHome: Bool) -> some View {
