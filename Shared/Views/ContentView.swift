@@ -46,7 +46,6 @@ struct ContentView: View {
         .frame(minWidth: 320, minHeight: 420)
         .animation(.spring(response: 0.42, dampingFraction: 0.82), value: game.winner)
         #if os(tvOS)
-        .onMoveCommand(perform: handleMoveCommand)
         .onPlayPauseCommand(perform: handleFocusedSelect)
         #endif
         .task(id: game.currentPlayer) {
@@ -415,56 +414,6 @@ struct ContentView: View {
     private func handleFocusedSelect() {
         guard let focusedCoordinate else { return }
         handleTap(focusedCoordinate)
-    }
-
-    private func handleMoveCommand(_ direction: MoveCommandDirection) {
-        guard !game.computerShouldMove, game.winner == nil else { return }
-
-        let current = focusedCoordinate ?? game.marbles.first(where: { $0.player == game.currentPlayer })?.coordinate
-        guard let current else { return }
-
-        if let next = nextCoordinate(from: current, direction: direction) {
-            focusedCoordinate = next
-        }
-    }
-
-    private func nextCoordinate(from current: BoardCoordinate, direction: MoveCommandDirection) -> BoardCoordinate? {
-        let currentPoint = tvPoint(for: current)
-        let board = Set(game.board)
-        let candidates = HexDirection.all.compactMap { hexDirection -> (coordinate: BoardCoordinate, score: CGFloat)? in
-            let coordinate = current.neighbor(in: hexDirection)
-            guard board.contains(coordinate) else { return nil }
-            let point = tvPoint(for: coordinate)
-            let dx = point.x - currentPoint.x
-            let dy = point.y - currentPoint.y
-
-            let primary: CGFloat
-            let secondary: CGFloat
-            switch direction {
-            case .left:
-                guard dx < -0.1 else { return nil }
-                primary = dx
-                secondary = abs(dy)
-            case .right:
-                guard dx > 0.1 else { return nil }
-                primary = -dx
-                secondary = abs(dy)
-            case .up:
-                guard dy < -0.1 else { return nil }
-                primary = dy
-                secondary = abs(dx)
-            case .down:
-                guard dy > 0.1 else { return nil }
-                primary = -dy
-                secondary = abs(dx)
-            @unknown default:
-                return nil
-            }
-
-            return (coordinate, secondary * 2.4 + primary)
-        }
-
-        return candidates.min { $0.score < $1.score }?.coordinate
     }
 
     private func preferredDestination(from coordinate: BoardCoordinate, destinations: Set<BoardCoordinate>) -> BoardCoordinate? {
