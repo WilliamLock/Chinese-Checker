@@ -430,8 +430,10 @@ struct ContentView: View {
 
     private func nextCoordinate(from current: BoardCoordinate, direction: MoveCommandDirection) -> BoardCoordinate? {
         let currentPoint = tvPoint(for: current)
-        let candidates = game.board.compactMap { coordinate -> (coordinate: BoardCoordinate, score: CGFloat)? in
-            guard coordinate != current else { return nil }
+        let board = Set(game.board)
+        let candidates = HexDirection.all.compactMap { hexDirection -> (coordinate: BoardCoordinate, score: CGFloat)? in
+            let coordinate = current.neighbor(in: hexDirection)
+            guard board.contains(coordinate) else { return nil }
             let point = tvPoint(for: coordinate)
             let dx = point.x - currentPoint.x
             let dy = point.y - currentPoint.y
@@ -441,25 +443,25 @@ struct ContentView: View {
             switch direction {
             case .left:
                 guard dx < -0.1 else { return nil }
-                primary = -dx
+                primary = dx
                 secondary = abs(dy)
             case .right:
                 guard dx > 0.1 else { return nil }
-                primary = dx
+                primary = -dx
                 secondary = abs(dy)
             case .up:
                 guard dy < -0.1 else { return nil }
-                primary = -dy
+                primary = dy
                 secondary = abs(dx)
             case .down:
                 guard dy > 0.1 else { return nil }
-                primary = dy
+                primary = -dy
                 secondary = abs(dx)
             @unknown default:
                 return nil
             }
 
-            return (coordinate, primary + secondary * 2.4)
+            return (coordinate, secondary * 2.4 + primary)
         }
 
         return candidates.min { $0.score < $1.score }?.coordinate
