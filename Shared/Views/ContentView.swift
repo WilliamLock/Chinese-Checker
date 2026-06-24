@@ -47,6 +47,7 @@ struct ContentView: View {
         .animation(.spring(response: 0.42, dampingFraction: 0.82), value: game.winner)
         #if os(tvOS)
         .onMoveCommand(perform: handleMoveCommand)
+        .onPlayPauseCommand(perform: handleFocusedSelect)
         #endif
         .task(id: game.currentPlayer) {
             applyScreenshotStateIfNeeded()
@@ -357,6 +358,11 @@ struct ContentView: View {
 
         guard let marble = game.marble(at: coordinate), marble.player == game.currentPlayer else {
             #if os(tvOS)
+            if selectedMarbleID == nil,
+               let nearestMarble = nearestCurrentPlayerMarble(to: coordinate) {
+                selectMarble(nearestMarble, at: nearestMarble.coordinate)
+                return
+            }
             focusedCoordinate = coordinate
             return
             #else
@@ -369,8 +375,18 @@ struct ContentView: View {
     }
 
     private func selectMarble(_ marble: Marble, at coordinate: BoardCoordinate) {
+        let destinations = game.legalDestinations(for: marble)
+        #if os(tvOS)
+        if destinations.isEmpty,
+           let nearestMarble = nearestCurrentPlayerMarble(to: coordinate),
+           nearestMarble.id != marble.id {
+            selectMarble(nearestMarble, at: nearestMarble.coordinate)
+            return
+        }
+        #endif
+
         selectedMarbleID = marble.id
-        legalDestinations = game.legalDestinations(for: marble)
+        legalDestinations = destinations
         #if os(tvOS)
         focusedCoordinate = preferredDestination(from: coordinate, destinations: legalDestinations) ?? coordinate
         #else
@@ -396,6 +412,11 @@ struct ContentView: View {
     }
 
     #if os(tvOS)
+    private func handleFocusedSelect() {
+        guard let focusedCoordinate else { return }
+        handleTap(focusedCoordinate)
+    }
+
     private func handleMoveCommand(_ direction: MoveCommandDirection) {
         guard !game.computerShouldMove, game.winner == nil else { return }
 
@@ -450,6 +471,14 @@ struct ContentView: View {
         }
     }
 
+    private func nearestCurrentPlayerMarble(to coordinate: BoardCoordinate) -> Marble? {
+        game.marbles
+            .filter { $0.player == game.currentPlayer && !game.legalDestinations(for: $0).isEmpty }
+            .min {
+                tvPoint(for: coordinate).distance(to: tvPoint(for: $0.coordinate)) < tvPoint(for: coordinate).distance(to: tvPoint(for: $1.coordinate))
+            }
+    }
+
     private func tvPoint(for coordinate: BoardCoordinate) -> CGPoint {
         let vertical = CGPoint(
             x: sqrt(3) * CGFloat(coordinate.q) + sqrt(3) / 2 * CGFloat(coordinate.r),
@@ -464,7 +493,9 @@ struct ContentView: View {
         if let focusedCoordinate, game.board.contains(focusedCoordinate) {
             return
         }
-        focusedCoordinate = game.marbles.first(where: { $0.player == game.currentPlayer })?.coordinate
+        focusedCoordinate = game.marbles.first {
+            $0.player == game.currentPlayer && !game.legalDestinations(for: $0).isEmpty
+        }?.coordinate ?? game.marbles.first(where: { $0.player == game.currentPlayer })?.coordinate
     }
 
     private func applyScreenshotStateIfNeeded() {

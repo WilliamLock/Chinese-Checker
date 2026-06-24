@@ -26,7 +26,7 @@ struct BoardView: View {
         .accessibilityElement(children: .contain)
         .onAppear {
             guard focusedCell == nil else { return }
-            focusedCell = focusedCoordinate ?? game.marbles.first(where: { $0.player == game.currentPlayer })?.coordinate
+            focusedCell = focusedCoordinate ?? firstMovableMarbleCoordinate ?? game.marbles.first(where: { $0.player == game.currentPlayer })?.coordinate
         }
         .onChange(of: focusedCell) { _, newValue in
             focusedCoordinate = newValue
@@ -43,6 +43,12 @@ struct BoardView: View {
         #else
         .vertical
         #endif
+    }
+
+    private var firstMovableMarbleCoordinate: BoardCoordinate? {
+        game.marbles.first {
+            $0.player == game.currentPlayer && !game.legalDestinations(for: $0).isEmpty
+        }?.coordinate
     }
 
     private var boardSurface: some View {
@@ -208,7 +214,6 @@ struct BoardView: View {
         #else
         .buttonStyle(.plain)
         #endif
-        .focusable(true)
         .focused($focusedCell, equals: coordinate)
         #if os(tvOS)
         .focusEffectDisabled()
