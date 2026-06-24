@@ -338,6 +338,13 @@ struct ContentView: View {
             clearSelection()
             return
         }
+
+        if let marble = game.marble(at: coordinate),
+           marble.player == game.currentPlayer,
+           marble.id != selectedMarbleID {
+            selectMarble(marble, at: coordinate)
+            return
+        }
         #endif
 
         if let selectedMarbleID,
@@ -358,6 +365,10 @@ struct ContentView: View {
             #endif
         }
 
+        selectMarble(marble, at: coordinate)
+    }
+
+    private func selectMarble(_ marble: Marble, at coordinate: BoardCoordinate) {
         selectedMarbleID = marble.id
         legalDestinations = game.legalDestinations(for: marble)
         #if os(tvOS)
