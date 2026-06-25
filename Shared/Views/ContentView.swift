@@ -20,14 +20,7 @@ struct ContentView: View {
             )
             .ignoresSafeArea()
 
-            BoardView(
-                game: game,
-                selectedMarbleID: selectedMarbleID,
-                legalDestinations: legalDestinations,
-                focusedCoordinate: $focusedCoordinate,
-                onTap: handleTap
-            )
-            .ignoresSafeArea()
+            boardLayer
 
             VStack {
                 topChrome
@@ -73,6 +66,26 @@ struct ContentView: View {
         78
         #else
         18
+        #endif
+    }
+
+    private var boardLayer: some View {
+        let board = BoardView(
+            game: game,
+            selectedMarbleID: selectedMarbleID,
+            legalDestinations: legalDestinations,
+            focusedCoordinate: $focusedCoordinate,
+            onTap: handleTap
+        )
+
+        #if LITE_VERSION && os(iOS)
+        return board
+            .padding(.top, 6)
+            .padding(.bottom, 62)
+            .ignoresSafeArea(edges: .horizontal)
+        #else
+        return board
+            .ignoresSafeArea()
         #endif
     }
 

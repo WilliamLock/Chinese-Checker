@@ -5,25 +5,28 @@ import UIKit
 
 struct LiteAdBannerView: View {
     var body: some View {
-        GeometryReader { proxy in
-            let width = max(proxy.size.width, 320)
-            let adSize = currentOrientationAnchoredAdaptiveBanner(width: width)
-
-            BannerViewRepresentable(adSize: adSize)
-                .frame(width: adSize.size.width, height: adSize.size.height)
-                .frame(maxWidth: .infinity)
-        }
-        .frame(height: 60)
+        BannerViewRepresentable(adSize: AdSizeBanner)
+            .frame(width: AdSizeBanner.size.width, height: AdSizeBanner.size.height)
+            .frame(maxWidth: .infinity)
+            .frame(height: AdSizeBanner.size.height)
         .accessibilityHidden(true)
     }
 }
+
+private let liteBannerAdUnitID = {
+    #if DEBUG
+    "ca-app-pub-3940256099942544/2934735716"
+    #else
+    "ca-app-pub-5813365636393784/1541829296"
+    #endif
+}()
 
 private struct BannerViewRepresentable: UIViewRepresentable {
     let adSize: AdSize
 
     func makeUIView(context: Context) -> BannerView {
         let bannerView = BannerView(adSize: adSize)
-        bannerView.adUnitID = "ca-app-pub-5813365636393784/1541829296"
+        bannerView.adUnitID = liteBannerAdUnitID
         bannerView.rootViewController = UIApplication.shared.connectedScenes
             .compactMap { $0 as? UIWindowScene }
             .flatMap(\.windows)
