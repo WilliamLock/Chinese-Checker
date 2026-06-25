@@ -23,7 +23,7 @@ private struct BannerViewRepresentable: UIViewRepresentable {
 
     func makeUIView(context: Context) -> BannerView {
         let bannerView = BannerView(adSize: adSize)
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = "ca-app-pub-5813365636393784/1541829296"
         bannerView.rootViewController = UIApplication.shared.connectedScenes
             .compactMap { $0 as? UIWindowScene }
             .flatMap(\.windows)

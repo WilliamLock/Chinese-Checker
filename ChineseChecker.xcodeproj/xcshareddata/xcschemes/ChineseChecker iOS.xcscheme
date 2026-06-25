@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2639963BE3FF9D14067B7831"
+               BlueprintIdentifier = "FA9BD9EA78C31A3F378967AD"
                BuildableName = "ChineseChecker iOS.app"
                BlueprintName = "ChineseChecker iOS"
                ReferencedContainer = "container:ChineseChecker.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2639963BE3FF9D14067B7831"
+            BlueprintIdentifier = "FA9BD9EA78C31A3F378967AD"
             BuildableName = "ChineseChecker iOS.app"
             BlueprintName = "ChineseChecker iOS"
             ReferencedContainer = "container:ChineseChecker.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2639963BE3FF9D14067B7831"
+            BlueprintIdentifier = "FA9BD9EA78C31A3F378967AD"
             BuildableName = "ChineseChecker iOS.app"
             BlueprintName = "ChineseChecker iOS"
             ReferencedContainer = "container:ChineseChecker.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2639963BE3FF9D14067B7831"
+            BlueprintIdentifier = "FA9BD9EA78C31A3F378967AD"
             BuildableName = "ChineseChecker iOS.app"
             BlueprintName = "ChineseChecker iOS"
             ReferencedContainer = "container:ChineseChecker.xcodeproj">
