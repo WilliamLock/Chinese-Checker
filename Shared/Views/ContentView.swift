@@ -48,6 +48,7 @@ struct ContentView: View {
         .frame(minWidth: 320, minHeight: 420)
         .animation(.spring(response: 0.42, dampingFraction: 0.82), value: game.winner)
         #if os(tvOS)
+        .onMoveCommand(perform: handleMoveCommand)
         .onPlayPauseCommand(perform: handleFocusedSelect)
         #endif
         .task(id: game.currentPlayer) {
@@ -441,9 +442,53 @@ struct ContentView: View {
     }
 
     #if os(tvOS)
+    private func handleMoveCommand(_ direction: MoveCommandDirection) {
+        guard !game.computerShouldMove, game.winner == nil else { return }
+        guard let current = focusedCoordinate else {
+            focusCurrentPlayerIfNeeded()
+            return
+        }
+
+        let selectableMarbles = game.marbles
+            .filter { $0.player == game.currentPlayer && !game.legalDestinations(for: $0).isEmpty }
+            .map(\.coordinate)
+        let candidates = legalDestinations.isEmpty
+            ? game.board
+            : Array(Set(legalDestinations).union(selectableMarbles))
+
+        focusedCoordinate = nextCoordinate(from: current, direction: direction, candidates: candidates) ?? current
+    }
+
     private func handleFocusedSelect() {
         guard let focusedCoordinate else { return }
         handleTap(focusedCoordinate)
+    }
+
+    private func nextCoordinate(
+        from coordinate: BoardCoordinate,
+        direction: MoveCommandDirection,
+        candidates: [BoardCoordinate]
+    ) -> BoardCoordinate? {
+        let origin = tvPoint(for: coordinate)
+        let vector = tvVector(for: direction)
+        let currentDestination = focusedCoordinate
+
+        return candidates
+            .filter { $0 != coordinate }
+            .compactMap { candidate -> (coordinate: BoardCoordinate, score: CGFloat)? in
+                let point = tvPoint(for: candidate)
+                let dx = point.x - origin.x
+                let dy = point.y - origin.y
+                let forward = dx * vector.dx + dy * vector.dy
+                guard forward > 0.05 else { return nil }
+
+                let perpendicular = abs(dx * vector.dy - dy * vector.dx)
+                let destinationBias: CGFloat = legalDestinations.contains(candidate) ? -0.15 : 0
+                let stayBias: CGFloat = candidate == currentDestination ? -0.05 : 0
+                return (candidate, perpendicular * 3 + forward + destinationBias + stayBias)
+            }
+            .min { $0.score < $1.score }?
+            .coordinate
     }
 
     private func preferredDestination(from coordinate: BoardCoordinate, destinations: Set<BoardCoordinate>) -> BoardCoordinate? {
@@ -466,6 +511,21 @@ struct ContentView: View {
             y: 1.5 * CGFloat(coordinate.r)
         )
         return CGPoint(x: -vertical.y, y: vertical.x)
+    }
+
+    private func tvVector(for direction: MoveCommandDirection) -> CGVector {
+        switch direction {
+        case .left:
+            CGVector(dx: -1, dy: 0)
+        case .right:
+            CGVector(dx: 1, dy: 0)
+        case .up:
+            CGVector(dx: 0, dy: -1)
+        case .down:
+            CGVector(dx: 0, dy: 1)
+        @unknown default:
+            CGVector(dx: 0, dy: 0)
+        }
     }
     #endif
 
